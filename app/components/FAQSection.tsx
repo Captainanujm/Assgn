@@ -1,4 +1,4 @@
-import FAQSidebar from "./FAQSideBar";
+import FAQSidebar from "./FAQSidebar";
 import SearchBar from "./SearchBar";
 import FAQItem from "./FAQItem";
 

@@ -22,10 +22,10 @@ export default function Navbar() {
        
         <div className="hidden md:flex gap-7 text-m font-semibold">
           {navLinks.map((link) => (
-            <button
+            <button 
               key={link.label}
               onClick={() => setActiveLink(link.label)}
-              className={`relative pb-1 transition 
+              className={`relative pb-1 cursor-pointer transition 
                 ${
                   activeLink === link.label
                     ? "after:absolute after:bottom-0 after:left-0 after:w-full after:h-[2px] after:bg-white"

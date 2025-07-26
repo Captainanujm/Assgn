@@ -5,7 +5,7 @@ import GetRightSection from './GetRightSection'
 const GetInTouch = () => {
   return (
     <section className="w-full py-20 px-4 bg-white">
-      <div className="max-w-6xl mx-auto flex flex-col md:flex-row gap-22">
+      <div className="max-w-6xl mx-auto flex flex-col md:flex-row gap-24">
       
         <GetLeftSection/>
         <GetRightSection/>

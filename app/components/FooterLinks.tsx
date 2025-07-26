@@ -17,7 +17,7 @@ const footerData = [
 
 const FooterLinks = () => {
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-18">
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-12">
       {footerData.map((section) => (
         <div key={section.title}>
           <h3 className="text-white font-semibold mb-4">{section.title}</h3>

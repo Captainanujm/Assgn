@@ -5,17 +5,25 @@ import FooterBottom from "./FooterBottom";
 
 const Footer = () => {
   return (
-    <footer className="bg-gradient-to-r from-[#4E0062] to-[#220076] text-white py-12 px-30">
-      <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between gap-8">
-        <div className="px-4">
-            <FooterBrand />
+    <footer className="bg-gradient-to-r from-[#4E0062] to-[#220076] text-white py-12 px-6 sm:px-12 md:px-20">
+      <div className="max-w-6xl mx-auto flex flex-col md:flex-row gap-20 md:gap-20 lg:gap-32">
+      
+       
+          
+      <div className="w-full md:max-w-sm">
+    <FooterBrand />
+  </div>
+
+
+        <div className="w-full md:w-1/2">
+          <FooterLinks />
         </div>
-        <div className="px-4">
-            <FooterLinks />
-        </div>
-        
       </div>
-      <FooterBottom />
+
+      {/* Bottom Footer */}
+      <div className="mt-12">
+        <FooterBottom />
+      </div>
     </footer>
   );
 };
